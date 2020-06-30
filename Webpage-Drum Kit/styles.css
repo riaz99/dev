@@ -1,0 +1,132 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+
+}
+
+.a {
+
+}
+
+.s {
+
+}
+
+.d {
+
+}
+
+.j {
+
+}
+
+.k {
+
+}
+
+.l {
+
+}
+
+.set {
+  margin: 8% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+ /* Responsive Media query */
+  /* responsive for desktop
+  Small (smaller than 640px)
+  Medium (641px to 1007px) */
+
+  /* @media for ipad device */
+@media (min-width:1008px) and (max-width:1024px){
+  h1 {
+    font-size: 4rem;    
+  }
+  .drum {   
+    border: 4px solid #404B69;
+    font-size: 3rem;    
+    line-height: 1.5;   
+    width: 120px;
+    height: 120px;   
+    margin: 5px;    
+  }
+}
+
+  /* @media for medium device */
+@media (max-width:1007px) and (min-width:641px){
+  h1 {
+    font-size: 3rem;    
+  }
+  .drum {   
+    border: 3px solid #404B69;
+    font-size: 3rem;    
+    line-height: 1.5;   
+    text-shadow: 3px 0 #DBEDF3;    
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+}
+  /* @media for small device */
+@media  (max-width:640px){
+  h1 {
+    font-size: 2rem;   
+  }
+
+  .drum {    
+    border: 2px solid #404B69;
+    font-size: 2rem;    
+    line-height: 1;
+    text-shadow: 2px 0 #DBEDF3;    
+    width: 75px;
+    height: 75px;
+    margin: 4px;   
+  }
+}
