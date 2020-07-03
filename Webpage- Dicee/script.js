@@ -10,7 +10,7 @@ function refreshDice() {
     document.querySelector(".p2").textContent="";
    
     function local_start(counter){
-        if(counter < 24){
+        if(counter < 20){
           setTimeout(function(){
             counter++;
             rollDice();
@@ -33,6 +33,9 @@ function rollDice() {
         dice2.setAttribute("src", "images/dice" + getRandom() + ".png")
 }
 function rollLastDice() {    
+    $(".img1").animate({opacity:1});
+    $(".img2").animate({opacity:1});
+
     let dice1 = document.querySelector(".img1");
     let r1 = getRandom();
     dice1.setAttribute("src", "images/dice" + r1 + ".png")
@@ -64,10 +67,8 @@ function rollLastDice() {
     }
 }
 function hideDice() {    
-    let dice1 = document.querySelector(".img1");
-    dice1.setAttribute("src", "")
-    let dice2 = document.querySelector(".img2");
-    dice2.setAttribute("src", "")
+    $(".img1").animate({opacity:0},"slow");
+    $(".img2").animate({opacity:0},"slow)");
 }
 function getRandom() {
     let upper = 6;
