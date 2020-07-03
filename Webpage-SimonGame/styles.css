@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  cursor: pointer;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  cursor: cell;
+}
+
+.green {
+  background-color: green;
+  cursor: cell;
+}
+
+.blue {
+  background-color: blue;
+  cursor: cell;
+}
+
+.yellow {
+  background-color: yellow;
+  cursor: cell;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* @media for ipad device */
+@media (min-width:1008px) and (max-width:1024px){
+  .container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  
+  }
+}
+
+
+/* @media for medium device */
+@media (max-width:1007px) and (min-width:641px){
+  .container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  
+  }
+}
+
+/* @media for small device */
+@media  (max-width:640px){
+  .container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  
+  }
+  #level-title {    
+    font-size: 2rem;
+  }
+  .btn {
+    margin: 15px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 7px solid black;    
+  }
+}
