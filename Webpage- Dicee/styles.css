@@ -59,34 +59,16 @@ footer {
 }
 
 
- /* @media for ipad device */
- @media (min-width:1008px) and (max-width:1024px){
-  
-}
-
-  /* @media for medium device */
-@media (max-width:1007px) and (min-width:641px){
-  .img1, .img2 {
-    width:80%;
-  }
-  p{
-    margin: 16px 0;
-  }
-  h1 {
-    margin: 20px;   
-    font-size: 2.5rem;
-  } 
-}
-  /* @media for small device */
-@media  (max-width:640px){
-  .img1, .img2 {
+ /* @media for small device */
+@media  (max-width:640px){  
+  img{
     width:70%;
   }
   p{
-    margin: 16px 0;
+    margin: 0;
   }
   h1 {
-    margin: 20px;   
-    font-size: 2.5rem;
+    margin: 10px;   
+    font-size: 2rem;
   } 
 }
